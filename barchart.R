@@ -1,0 +1,5 @@
+names= c("a","b","c","d","e")
+color = c("blue","green","red")
+Values=matrix(c(100,10,500,328,25,45,234,123,234,76,98,900,299,42,12),nrow=3,ncol=5,byrow=TRUE)
+barplot(Values,names.arg=names,xlab="X",ylab="Y",main="Test",col=color)
+legend("topleft",c("N1","N2","N3"),fill=color)

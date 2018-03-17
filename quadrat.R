@@ -1,0 +1,10 @@
+a=as.integer(readline(prompt="Enter the co-efficient of the x^2:"))
+b=as.integer(readline(prompt="Enter the co-efficient of the x:"))
+c=as.integer(readline(prompt="Enter the co-efficient of the constant term:"))
+D=(b*b)-(4*a*c)
+d=sqrt(D)
+x=((-b+d)/(2*a))
+y=((-b-d)/(2*a))
+print(x)
+print(y)
+
